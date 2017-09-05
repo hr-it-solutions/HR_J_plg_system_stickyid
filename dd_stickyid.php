@@ -61,9 +61,12 @@ class PlgSystemDD_StickyID extends JPlugin
 		$id = trim($id, '#');
 
 		return <<<SCRIPT
-$(window).load(function(){
-  $("#$id").sticky({ topSpacing: 0 });
-});
+(function($) {
+    $(function()
+    {
+        $("#$id").sticky({ topSpacing: 0 });
+    });
+})(jQuery);
 SCRIPT;
 	}
 }
