@@ -4,7 +4,7 @@ A Joomla! system plugin to turn anything sticky. Adapted from https://github.com
 The Plugin itself is licensed under the GPL License [![GPL Licence](https://badges.frapsoft.com/os/gpl/gpl.png?v=102)](https://opensource.org/licenses/GPL-2.0/)
 
 -----
-####Sticky
+#### Sticky
 
 **NOTE**: The implemented stickyjs https://github.com/garand/sticky
 is licensed under the MIT License [![MIT Licence](https://badges.frapsoft.com/os/mit/mit.png?v=103)](https://opensource.org/licenses/mit-license.php) https://github.com/garand/sticky/blob/master/LICENSE.md
@@ -12,7 +12,7 @@ Copyright 2014-2016 Anthony Garand http://garand.me
 
 -----
 
-#####Functionality
+##### Functionality
 Just define the id to sticky at the plugin setting and the id is sticky.
 That's all ;)
 
