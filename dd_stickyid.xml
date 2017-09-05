@@ -16,7 +16,7 @@
         <folder>js</folder>
     </media>
     <languages>
-        <language tag="en-GB">language/en-GB/en-GB.plg_system_dd_disable_jquery.sys.ini</language>
+        <language tag="en-GB">language/en-GB/en-GB.plg_system_dd_stickyid.sys.ini</language>
     </languages>
     <config>
         <fields name="params">
