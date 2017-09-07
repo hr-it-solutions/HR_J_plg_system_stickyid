@@ -12,8 +12,9 @@ The Plugin itself is licensed under the GPL License
 
 **NOTE**: The implemented stickyjs https://github.com/garand/stickyis licensed under the MIT License
 
-[![MIT Licence](https://badges.frapsoft.com/os/mit/mit.png?v=103)](https://opensource.org/licenses/mit-license.php) https://github.com/garand/sticky/blob/master/LICENSE.md
-Copyright 2014-2016 Anthony Garand http://garand.me
+[![MIT Licence](https://badges.frapsoft.com/os/mit/mit.png?v=103)](https://opensource.org/licenses/mit-license.php) https://github.com/garand/sticky/blob/master/LICENSE.md <br>
+Copyright 2014-2016 Anthony Garand<br>
+http://garand.me
 
 -----
 
