@@ -3,7 +3,8 @@
 # DD_J_plg_system_stickyid
 A Joomla! system plugin to turn anything sticky. Adapted from https://github.com/garand/sticky
 
-The Plugin itself is licensed under the GPL License [![GPL Licence](https://badges.frapsoft.com/os/gpl/gpl.png?v=102)](https://opensource.org/licenses/GPL-2.0/)
+The Plugin itself is licensed under the GPL License
+[![GPL Licence](https://badges.frapsoft.com/os/gpl/gpl.png?v=102)](https://opensource.org/licenses/GPL-2.0/)
 
 -----
 #### Sticky
