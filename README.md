@@ -1,5 +1,3 @@
-[![DDSTATE](https://img.shields.io/badge/status-ALPHA-red.svg?style=flat)](https://img.shields.io/badge/status-ALPHA-red.svg?style=flat)
-
 # HR_J_plg_system_stickyid
 A Joomla! system plugin to turn anything sticky. Adapted from https://github.com/garand/sticky
 
