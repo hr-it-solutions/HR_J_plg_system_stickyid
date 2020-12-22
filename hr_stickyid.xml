@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension version="3.1.1" type="plugin" group="system" method="upgrade">
-    <name>PLG_SYSTEM_DD_STICKYID</name>
-    <version>1.0.0.0</version>
+    <name>PLG_SYSTEM_HR_STICKYID</name>
+    <version>1.0.2.0</version>
     <creationDate>01.09.2017</creationDate>
-    <author>HR IT-Solutions Florian Häusler</author>
+    <author>HR-IT-Solutions GmbH Florian Häusler</author>
     <authorEmail>info@hr-it-solutions.com</authorEmail>
     <authorUrl>https://www.hr-it-solutions.com</authorUrl>
-    <copyright>Copyright (C) 2017 - 2017 Didldu e.K. | HR IT-Solutions</copyright>
+    <copyright>Copyright (C) 2020 - 2020 HR-IT-Solutions GmbH</copyright>
     <license>GNU/GPLv2 only</license>
-    <description>PLG_SYSTEM_DD_STICKYID_XML_DESCRIPTION</description>
+    <description>PLG_SYSTEM_HR_STICKYID_XML_DESCRIPTION</description>
     <files>
-        <filename plugin="dd_stickyid">dd_stickyid.php</filename>
+        <filename plugin="hr_stickyid">hr_stickyid.php</filename>
     </files>
-    <media destination="plg_dd_stickyid" folder="media">
+    <media destination="plg_hr_stickyid" folder="media">
         <folder>js</folder>
     </media>
     <languages>
-        <language tag="en-GB">language/en-GB/en-GB.plg_system_dd_stickyid.sys.ini</language>
+        <language tag="en-GB">language/en-GB/en-GB.plg_system_hr_stickyid.sys.ini</language>
     </languages>
     <config>
         <fields name="params">
@@ -25,8 +25,8 @@
                        type="text"
                        class="inputbox"
                        size="40"
-                       label="PLG_SYSTEM_DD_STICKYID_STICKYID_LABEL"
-                       description="PLG_SYSTEM_DD_STICKYID_STICKYID_DESC"
+                       label="PLG_SYSTEM_HR_STICKYID_STICKYID_LABEL"
+                       description="PLG_SYSTEM_HR_STICKYID_STICKYID_DESC"
                 />
             </fieldset>
         </fields>
