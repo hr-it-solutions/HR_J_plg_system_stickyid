@@ -37,7 +37,7 @@ class PlgSystemHR_StickyID extends CMSPlugin
 			if (!empty($this->params->get('stickyid')))
 			{
                 HTMLHelper::_('script',
-					'plg_dd_stickyid/jquery.sticky.js',
+					'plg_hr_stickyid/jquery.sticky.js',
 					array('version' => 'auto', 'relative' => true)
 				);
 
