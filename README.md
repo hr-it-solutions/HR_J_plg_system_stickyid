@@ -1,6 +1,6 @@
 [![DDSTATE](https://img.shields.io/badge/status-ALPHA-red.svg?style=flat)](https://img.shields.io/badge/status-ALPHA-red.svg?style=flat)
 
-# DD_J_plg_system_stickyid
+# HR_J_plg_system_stickyid
 A Joomla! system plugin to turn anything sticky. Adapted from https://github.com/garand/sticky
 
 The Plugin itself is licensed under the GPL License
@@ -23,12 +23,8 @@ Just define the id to sticky at the plugin setting and the id is sticky.
 That's all ;)
 
 # System requirements
-Joomla 3.x +                                                                                <br>
-PHP 5.6.13 or newer is recommended.
-
-# DD_ Namespace
-DD_ stands for  **D**idl**d**u e.K. | HR IT-Solutions (Brand recognition)                   <br>
-It is a namespace prefix, provided to avoid element name conflicts.
+Joomla 4.x +                                                                                <br>
+PHP 7.1 or newer is recommended.
 
 <br>
 Author: HR IT-Solutions Florian Häusler https://www.hr-it-solution.com                      <br>

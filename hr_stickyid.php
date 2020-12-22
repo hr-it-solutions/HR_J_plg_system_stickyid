@@ -1,23 +1,24 @@
 <?php
 /**
- * @package    DD_StickyID
+ * @package    HR_StickyID
  *
- * @author     HR IT-Solutions Florian Häusler <info@hr-it-solutions.com>
- * @copyright  Copyright (C) 2017 - 2017 Didldu e.K. | HR IT-Solutions
+ * @author     HR-IT-Solutions Florian Häusler <info@hr-it-solutions.com>
+ * @copyright  Copyright (C) 2017 - 2021 HR-IT-Solutions GmbH
  * @license    http://www.gnu.org/licenses/gpl-2.0.html GNU/GPLv2 only
  **/
 
 defined('_JEXEC') or die;
 
-jimport('joomla.plugin.plugin');
-jimport('joomla.access.access');
+use Joomla\CMS\Plugin\CMSPlugin;
+use Joomla\CMS\Factory;
+use Joomla\CMS\HTML\HTMLHelper;
 
 /**
- * Joomla! system plugin to disable jQuery from the front end!
+ * Joomla! System plugin to turn anything sticky. Adapted from https://github.com/garand/sticky
  *
  * @since  Version 1.0.0.0
  */
-class PlgSystemDD_StickyID extends JPlugin
+class PlgSystemHR_StickyID extends CMSPlugin
 {
 	protected $app;
 
@@ -30,17 +31,17 @@ class PlgSystemDD_StickyID extends JPlugin
 	 */
 	public function onBeforeCompileHead()
 	{
-		// Front end
-		if ($this->app instanceof JApplicationSite)
-		{
+        // Frontend
+        if ($this->app->isClient('site'))
+        {
 			if (!empty($this->params->get('stickyid')))
 			{
-				JHTML::_('script',
+                HTMLHelper::_('script',
 					'plg_dd_stickyid/jquery.sticky.js',
 					array('version' => 'auto', 'relative' => true)
 				);
 
-				JFactory::getDocument()->addScriptDeclaration(
+				Factory::getDocument()->addScriptDeclaration(
 					$this->stickyScript(
 						$this->params->get('stickyid')
 					)
